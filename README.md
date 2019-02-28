@@ -1,2 +1,2 @@
 # QATS-PMRS
-Quality Assurance Test Scenarios
+Quality Assurance Test Scenarios for PMRS
