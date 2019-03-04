@@ -15,12 +15,16 @@ import com.kms.katalon.core.testdata.TestData
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import groovy.sql.Sql
-import java.sql.*
+import java.sql.DriverManager
+import java.sql.ResultSet
+import java.sql.Statement
+import com.kms.katalon.core.annotation.Keyword
+
+import com.mysql.jdbc.Connection
 import internal.GlobalVariable
 
 public class connectDB {
-	
+
 	/*
 	 * url - jdbc:mysql://pmrs.c4orxtkfp1ro.ap-southeast-1.rds.amazonaws.com/pmrsdb
 	 * user - pmrs_apps
@@ -29,13 +33,46 @@ public class connectDB {
 	 * 
 	 * */
 
+	private static Connection connection = null;
+
 	@Keyword
-	public connection(String url, String user, String password, String driverClassName) {
-		def sqlConnection = Sql.newInstance(url,user,password,driverClassName);
-		sqlConnection.eachRow("SELECT * FROM pmrsdb.doctor") { row ->
-			for(int x=0;x<5;x++) {
-				println row[x]
-			}
+	def connectToDB(String url, String username, String password,String dbname){
+
+		//Load driver class for your specific database type
+		String conn = "jdbc:mysql://" + url + "/" + dbname
+		//Class.forName("org.sqlite.JDBC")
+		//String connectionString = "jdbc:sqlite:" + dataFile
+		if(connection != null && !connection.isClosed()){
+
+			connection.close()
+
 		}
+		connection = DriverManager.getConnection(conn, username, password)
 	}
+
+
+	@Keyword
+	def executeQuery(String queryString)
+	{
+		Statement stm = connection.createStatement()
+		ResultSet rs = stm.executeQuery(queryString)
+		
+		println rs;
+		return rs
+	}
+
+
+	@Keyword
+	def closeDatabaseConnection() {
+		if(connection != null && !connection.isClosed())
+		{
+			connection.close()
+		}
+
+		connection = null
+
+	}
+
+
 }
+
