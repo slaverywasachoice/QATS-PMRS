@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;Verify that doctor drop down display first_name and last_name in doctor table. It should be in alphabetical order.
+Note: Only secretary mapped doctors are displayed&quot;</description>
+   <name>QM-004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90a8417a-2264-4d86-88e3-b03006eadcbe</testCaseGuid>
+</TestCaseEntity>
