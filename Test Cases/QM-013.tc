@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that patient field when adding appointment will accept alphanumeric and special characters like @ and underscore only</description>
+   <name>QM-013</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a29234b0-4f76-49eb-8341-d6a50e893761</testCaseGuid>
+</TestCaseEntity>

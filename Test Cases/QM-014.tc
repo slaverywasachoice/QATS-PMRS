@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that patient field when adding appointment will display &quot;Invalid Input&quot; below the field when user entered an invalid input</description>
+   <name>QM-014</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62c84c90-77e9-446d-9f30-552f23fe026a</testCaseGuid>
+</TestCaseEntity>
