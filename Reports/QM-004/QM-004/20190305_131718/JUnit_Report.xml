@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="QM-004" time="8" tests="1" failures="0" errors="0">
+   <testsuite name="QM-004" tests="1" failures="0" errors="0" time="8" timestamp="2019-03-05 13:17:21" hostname="e-science - e-sciences-mini" id="Test Suites/QM-004/QM-004">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/e-science/Desktop/git/QATS-PMRS/Reports/QM-004/QM-004/20190305_131718"/>
+         <property name="logFiles" value="/Users/e-science/Desktop/git/QATS-PMRS/Reports/QM-004/QM-004/20190305_131718/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="e-science - e-sciences-mini"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.52.25"/>
+         <property name="sessionId" value="d83c398a5bec414292f47c0153f1fba8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/QM-004" classname="Test Cases/QM-004" status="PASSED">
+         <system-out><![CDATA[2019-03-05 13:17:21 - [TEST_CASE][PASSED] - Test Cases/QM-004: Test Cases/QM-004
+
+2019-03-05 13:17:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-05 13:17:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-05 13:17:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-05 13:17:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-05 13:17:26 - [TEST_STEP][PASSED] - navigateToUrl("https://pmrsqa.eschost2.com/"): Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-05 13:17:28 - [MESSAGE][PASSED] - Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-05 13:17:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/QM-004/Page_PMRS Web Application/span_Alfred Adonis")): Object: 'Object Repository/QM-004/Page_PMRS Web Application/span_Alfred Adonis' is clicked on
+
+2019-03-05 13:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/QM-004/Page_PMRS Web Application/span_Alfred Adonis' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-05 13:17:21 - [TEST_SUITE][PASSED] - QM-004: Test Cases/QM-004]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

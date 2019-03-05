@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Alfred Adonis</name>
    <tag></tag>
-   <elementGuidId>a326a6e7-9ec0-4b11-994e-e2b1aeac7087</elementGuidId>
+   <elementGuidId>23c06689-5065-47b6-a14a-8e98ea58cdba</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -50,7 +50,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monday'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tuesday'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='All(2)'])[1]/preceding::span[7]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All(0)'])[1]/preceding::span[7]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

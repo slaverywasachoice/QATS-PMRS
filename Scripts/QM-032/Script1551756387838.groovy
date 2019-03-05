@@ -40,3 +40,29 @@ WebUI.verifyElementPresent(findTestObject('QM-032/Page_PMRS Web Application/i_no
 
 WebUI.verifyElementPresent(findTestObject('QM-032/Page_PMRS Web Application/i_account_circle'), 0)
 
+WebUI.verifyElementVisible(findTestObject('QM-032/Page_PMRS Web Application/mat-card_1  testname   testgmail.com   account_circle WALK-IN access_time 0933 AM access_time 0950 AM more_vertnotifications'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('QM-032/Page_PMRS Web Application 2/div_2'), 0)
+
+WebUI.verifyElementPresent(findTestObject('QM-032/Page_PMRS Web Application 2/div_access_time 0916 AM'), 0)
+
+WebUI.verifyElementPresent(findTestObject('QM-032/Page_PMRS Web Application 2/div_access_time 0955 AM'), 0)
+
+WebUI.verifyElementPresent(findTestObject('QM-032/Page_PMRS Web Application 2/div_account_circle WALK-IN'), 0)
+
+WebUI.verifyElementPresent(findTestObject('QM-032/Page_PMRS Web Application 2/div_Hgg.com'), 0)
+
+WebUI.verifyElementPresent(findTestObject('QM-032/Page_PMRS Web Application 2/div_Hvhfjvjgj'), 0)
+
+WebUI.verifyElementPresent(findTestObject('QM-032/Page_PMRS Web Application 2/i_access_time'), 0)
+
+WebUI.verifyElementPresent(findTestObject('QM-032/Page_PMRS Web Application 2/i_account_circle'), 0)
+
+WebUI.verifyElementPresent(findTestObject('QM-032/Page_PMRS Web Application 2/i_more_vert'), 0)
+
+WebUI.verifyElementPresent(findTestObject('QM-032/Page_PMRS Web Application 2/i_notifications'), 0)
+
+WebUI.verifyElementPresent(findTestObject('QM-032/Page_PMRS Web Application 2/mat-card_2  Hvhfjvjgj   Hgg.com   account_circle WALK-IN access_time 0916 AM access_time 0955 AM more_vertnotifications'), 
+    0)
+

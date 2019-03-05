@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+QM-004,Chrome 72.0.3626.119,"\""Verify that doctor drop down display first_name and last_name in doctor table. It should be in alphabetical order.\nNote: Only secretary mapped doctors are displayed\""",2019-03-05 13:17:21,2019-03-05 13:17:29,8.055s,PASSED
+,,,,,,
+Test Cases/QM-004,Chrome 72.0.3626.119,"""Verify that doctor drop down display first_name and last_name in doctor table. It should be in alphabetical order.
+Note: Only secretary mapped doctors are displayed""",2019-03-05 13:17:21,2019-03-05 13:17:29,7.377s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.119,,2019-03-05 13:17:22,2019-03-05 13:17:26,3.939s,PASSED
+"navigateToUrl(""https://pmrsqa.eschost2.com/"")",Chrome 72.0.3626.119,,2019-03-05 13:17:26,2019-03-05 13:17:28,2.496s,PASSED
+"click(findTestObject(""Object Repository/QM-004/Page_PMRS Web Application/span_Alfred Adonis""))",Chrome 72.0.3626.119,,2019-03-05 13:17:28,2019-03-05 13:17:29,0.405s,PASSED

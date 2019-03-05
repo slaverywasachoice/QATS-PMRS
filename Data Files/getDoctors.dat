@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>getDoctors</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>29d621a6-bb5d-4d05-9934-a965bea6612d</dataFileGUID>
+   <dataSourceUrl>jdbc:mysql://pmrs.c4orxtkfp1ro.ap-southeast-1.rds.amazonaws.com/pmrsdb</dataSourceUrl>
+   <driver>DBData</driver>
+   <isInternalPath>false</isInternalPath>
+   <password>ZjY2MTQ4MTQzYTlmNDg3YWJhYWYwZTI0YTE1OTM3ZjVjYzU3ZTgyNw==</password>
+   <query>select*from doctor</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>pmrs_apps</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

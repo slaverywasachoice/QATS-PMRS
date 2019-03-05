@@ -13,3 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
+
+WebUI.click(findTestObject('Object Repository/QM-004/Page_PMRS Web Application/span_Alfred Adonis'))
+
