@@ -13,13 +13,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WS.sendRequest(findTestObject('APIs/listDoctors'))
+response = WS.sendRequestAndVerify(findTestObject('APIs/listDoctors'))
 
-WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
+def data = findTestData('Data Files/DoctorNames')
 
-WebUI.click(findTestObject('Object Repository/QM-004/Page_PMRS Web Application/span_Alfred Adonis'))
+def dr1_firstname = data.getValue(1, 1)
 
-def data = findTestData('Data Files/getDoctors');
-//							   col,row
-def firstDoctor = data.getValue(3, 1);
+def dr2_firstname = data.getValue(1, 2)
+
+def dr3_firstname = data.getValue(1, 3)
+
+def dr1_lastname = data.getValue(2, 1)
+
+def dr2_lastname = data.getValue(2, 2)
+
+def dr3_lastname = data.getValue(2, 3)
+
+WS.verifyElementPropertyValue(response, 'data[0].first_name', dr1_firstname)
 
