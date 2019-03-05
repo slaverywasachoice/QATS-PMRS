@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that user can add appointment with valid nickname</description>
+   <name>QM-019</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e1bf100-809e-4985-9d42-1e23559dbd3b</testCaseGuid>
+</TestCaseEntity>

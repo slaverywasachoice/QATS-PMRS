@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that nickname field when adding appointment will display &quot;Invalid Input&quot; below the field when user entered an invalid input</description>
+   <name>QM-018</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6223a72f-1a3b-44c9-a9e7-dea77facd764</testCaseGuid>
+</TestCaseEntity>
