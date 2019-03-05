@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;Verify that appointment card display the following:
+- Patient name
+- Patient email/number
+- Position number
+- Drag icon
+- User icon (when appointment was set to priority)
+- Walk-In (label) for walk-in patients
+- Walk-In time with clock icon
+- Estimated Service Time with clock icon
+- Vertical dots button
+- Bell icon button&quot;</description>
+   <name>QM-032</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0640bb4e-a05f-419f-974d-ac4da4623995</testCaseGuid>
+</TestCaseEntity>
