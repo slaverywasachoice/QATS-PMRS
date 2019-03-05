@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that Priority Patient checkbox is unselected in default</description>
+   <name>QM-022</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03da7a8a-0411-4734-9971-7e064e69b11a</testCaseGuid>
+</TestCaseEntity>

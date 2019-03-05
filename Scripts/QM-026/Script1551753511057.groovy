@@ -19,17 +19,13 @@ WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/QM-021/Page_PMRS Web Application/button_Alfred Adonis_mat-fab mat-accent cdk-focused cdk-mouse-focused'))
+WebUI.click(findTestObject('Object Repository/QM-026/Page_PMRS Web Application/button_Alfred Adonis_mat-fab mat-accent cdk-focused cdk-mouse-focused'))
 
-WebUI.click(findTestObject('QM-021/Page_PMRS Web Application/input_PATIENT_mat-input-0'))
-
-WebUI.click(findTestObject('QM-021/Page_PMRS Web Application/input_NICKNAME_mat-input-1'))
-
-WebUI.click(findTestObject('QM-021/Page_PMRS Web Application/button_CONFIRM'))
-
-WebUI.click(findTestObject('QM-021/Page_PMRS Web Application/button_CONFIRM'))
+WebUI.verifyElementPresent(findTestObject('QM-026/Page_PMRS Web Application/div_EstimatedServiceTime1020AM'), 0)
 
 WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('QM-021/Page_PMRS Web Application/div_This field is required'))
+WebUI.click(findTestObject('Object Repository/QM-026/Page_PMRS Web Application/button_CANCEL'))
+
+WebUI.verifyElementNotPresent(findTestObject('QM-026/Page_PMRS Web Application/div_EstimatedServiceTime1020AM'), 0)
 
