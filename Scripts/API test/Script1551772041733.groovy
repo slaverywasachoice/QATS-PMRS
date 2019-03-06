@@ -25,10 +25,13 @@ def dr2_firstname = data.getValue(1, 2)
 def dr3_firstname = data.getValue(1, 3)
 
 def dr1_lastname = data.getValue(2, 1)
-
+ 
 def dr2_lastname = data.getValue(2, 2)
 
 def dr3_lastname = data.getValue(2, 3)
 
-WS.verifyElementPropertyValue(response, 'data[0].first_name', dr1_firstname)
+for(int x=0; x<=2;x++){
+	WS.verifyElementPropertyValue(response, 'data['+ x +'].first_name', dr1_firstname)
+}
+
 
