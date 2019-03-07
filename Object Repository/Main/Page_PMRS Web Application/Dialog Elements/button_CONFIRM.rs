@@ -3,7 +3,7 @@
    <description></description>
    <name>button_CONFIRM</name>
    <tag></tag>
-   <elementGuidId>7437ce76-f46e-4432-8fbb-084302c27c50</elementGuidId>
+   <elementGuidId>7e0871ff-6c01-4980-a410-a32034f715d4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-button cdk-focused cdk-mouse-focused</value>
+      <value>mat-button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-dialog-0&quot;)/add-appointment-dialog[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;patient-form ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;dialog-button&quot;]/button[@class=&quot;mat-button cdk-focused cdk-mouse-focused&quot;]</value>
+      <value>id(&quot;mat-dialog-0&quot;)/add-appointment-dialog[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;patient-form ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;dialog-button&quot;]/button[@class=&quot;mat-button&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

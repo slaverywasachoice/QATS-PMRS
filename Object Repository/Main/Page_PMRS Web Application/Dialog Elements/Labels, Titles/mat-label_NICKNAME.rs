@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_CONFIRM</name>
+   <name>mat-label_NICKNAME</name>
    <tag></tag>
-   <elementGuidId>7437ce76-f46e-4432-8fbb-084302c27c50</elementGuidId>
+   <elementGuidId>75b2ec3e-df8e-45f6-8eb7-ad97b4213771</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-0']/add-appointment-dialog/div/div/form/div[2]/button[2]</value>
+         <value>//mat-dialog-container[@id='mat-dialog-0']/add-appointment-dialog/div/div/form/div/mat-label[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,51 +17,50 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>mat-button cdk-focused cdk-mouse-focused</value>
+      <value>mat-label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>CONFIRM</value>
+      <value>NICKNAME</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-dialog-0&quot;)/add-appointment-dialog[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;patient-form ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;dialog-button&quot;]/button[@class=&quot;mat-button cdk-focused cdk-mouse-focused&quot;]</value>
+      <value>id(&quot;mat-dialog-0&quot;)/add-appointment-dialog[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;patient-form ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;mat-dialog-content&quot;]/mat-label[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//mat-dialog-container[@id='mat-dialog-0']/add-appointment-dialog/div/div/form/div[2]/button[2]</value>
+      <value>//mat-dialog-container[@id='mat-dialog-0']/add-appointment-dialog/div/div/form/div/mat-label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PATIENT'])[1]/following::mat-label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SELECT DATE &amp; TIME'])[1]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PM'])[1]/following::mat-label[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SELECT DATE &amp; TIME'])[1]/preceding::mat-label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//form/div[2]/button[2]</value>
+      <value>//mat-label[2]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -15,6 +15,6 @@ Note: Only secretary mapped doctors are displayed&quot;</description>
       <guid>be4865ff-3f5f-4a48-973e-8dd16a45918a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/QM-004</testCaseId>
+      <testCaseId>Test Cases/Queue Management/QM-004</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

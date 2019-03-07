@@ -13,12 +13,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(2)
+WebUI.openBrowser('')
 
-WebUI.setText(findTestObject('Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'), 'hughes.m@electronicscience.com')
+WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'), 
-    'pvl9UeBNnak165xxUnzI6w==')
+WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Log In/Page_PMRS Web Application/button_Login'))
+WebUI.click(findTestObject('QM-015/Page_PMRS Web Application/button_Dina  Tuto_mat-fab mat-accent cdk-focused cdk-program-focused'))
+
+WebUI.setText(findTestObject('Object Repository/QM-015/Page_PMRS Web Application/input_PATIENT_mat-input-2 (1)'), 'test@gmail.com')
+
+WebUI.click(findTestObject('Object Repository/QM-015/Page_PMRS Web Application/p_DR DINA  TUTO (1)'))
+
+WebUI.setText(findTestObject('Object Repository/QM-015/Page_PMRS Web Application/input_NICKNAME_mat-input-3 (1)'), 'testname')
+
+WebUI.click(findTestObject('Object Repository/QM-015/Page_PMRS Web Application/div_1600 - 2000      28'))
+
+WebUI.click(findTestObject('Object Repository/QM-015/Page_PMRS Web Application/div_    28'))
+
+WebUI.click(findTestObject('Object Repository/QM-015/Page_PMRS Web Application/button_CONFIRM'))
 

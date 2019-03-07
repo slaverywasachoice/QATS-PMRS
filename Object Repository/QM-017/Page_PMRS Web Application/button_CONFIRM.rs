@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-button cdk-focused cdk-mouse-focused</value>
+      <value>mat-button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-dialog-0&quot;)/add-appointment-dialog[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;patient-form ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;dialog-button&quot;]/button[@class=&quot;mat-button cdk-focused cdk-mouse-focused&quot;]</value>
+      <value>id(&quot;mat-dialog-0&quot;)/add-appointment-dialog[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;patient-form ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;dialog-button&quot;]/button[@class=&quot;mat-button&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

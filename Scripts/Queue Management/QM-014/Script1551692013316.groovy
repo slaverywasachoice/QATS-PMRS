@@ -13,12 +13,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
+
+WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'), 'hughes.m@electronicscience.com')
+WebUI.click(findTestObject('QM-014/Page_PMRS Web Application/button_Dina  Tuto_mat-fab mat-accent'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'), 
-    'pvl9UeBNnak165xxUnzI6w==')
+WebUI.setText(findTestObject('QM-014/Page_PMRS Web Application/input_PATIENT_mat-input-2'), '123]412\'3]421\'34]')
 
-WebUI.click(findTestObject('Object Repository/Log In/Page_PMRS Web Application/button_Login'))
+WebUI.click(findTestObject('QM-014/Page_PMRS Web Application/button_CONFIRM'))
+
+WebUI.delay(2)
+
+WebUI.verifyElementVisible(findTestObject('QM-014/Page_PMRS Web Application/div_Invalid Input'), FailureHandling.STOP_ON_FAILURE)
 

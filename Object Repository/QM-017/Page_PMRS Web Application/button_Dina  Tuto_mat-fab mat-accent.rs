@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_CONFIRM</name>
+   <name>button_Dina  Tuto_mat-fab mat-accent</name>
    <tag></tag>
-   <elementGuidId>7437ce76-f46e-4432-8fbb-084302c27c50</elementGuidId>
+   <elementGuidId>b59a0dbe-1559-4335-8047-661f25577e94</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-dialog-container[@id='mat-dialog-0']/add-appointment-dialog/div/div/form/div[2]/button[2]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='All(3)'])[1]/preceding::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,44 +24,38 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-button cdk-focused cdk-mouse-focused</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>CONFIRM</value>
+      <value>mat-fab mat-accent</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-dialog-0&quot;)/add-appointment-dialog[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;ng-star-inserted&quot;]/form[@class=&quot;patient-form ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;dialog-button&quot;]/button[@class=&quot;mat-button cdk-focused cdk-mouse-focused&quot;]</value>
+      <value>/html[1]/body[1]/esc-root[1]/esc-pages[@class=&quot;ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;full-height mat-drawer-container mat-sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[1]/div[@class=&quot;moduleClass&quot;]/esc-date[@class=&quot;ng-star-inserted&quot;]/div[1]/div[1]/div[1]/div[1]/div[2]/button[@class=&quot;mat-fab mat-accent&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//mat-dialog-container[@id='mat-dialog-0']/add-appointment-dialog/div/div/form/div[2]/button[2]</value>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All(3)'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANCEL'])[1]/following::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SELECT DATE &amp; TIME'])[1]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular(3)'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//form/div[2]/button[2]</value>
+      <value>//button[3]</value>
    </webElementXpaths>
 </WebElementEntity>

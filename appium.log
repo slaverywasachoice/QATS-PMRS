@@ -1,0 +1,49 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 61136
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 61137
+[Appium]   tmpDir: /var/folders/hc/p41g17s16fbdsftcp5yf5v200000gn/T//Katalon/Appium/Temp1551863350611
+[Appium] Appium REST http interface listener started on 0.0.0.0:61136
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 23 ms - 83
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 16 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/e-science/Downloads/Google Chrome Fast Secure_v72.0.3626.105_apkpure.com.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.1.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"capabilities":{"desiredCapabilities":{"app":"/Users/e-science/Downloads/Google Chrome Fast Secure_v72.0.3626.105_apkpure.com.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"emulator-5554 (Android SDK built for x86 - Android 7.1.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"emulator-5554"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","autoGrantPermissions","automationName","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
+[Appium] Capabilities:
+[Appium]   app: /Users/e-science/Downloads/Google Chrome Fast Secure_v72.0.3626.105_apkpure.com.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: uiautomator2
+[Appium]   deviceName: emulator-5554 (Android SDK built for x86 - Android 7.1.1)
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: ANDROID
+[Appium]   platformName: Android
+[Appium]   udid: emulator-5554
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 532037f1-2c07-4f48-97be-f8e3468537df
+[BaseDriver] Using local app '/Users/e-science/Downloads/Google Chrome Fast Secure_v72.0.3626.105_apkpure.com.apk'
+[AndroidDriver] Java version is: 1.8.0_181
+[ADB] Checking whether adb is present
+[ADB] Found 1 'build-tools' folders under '/Users/e-science/.katalon/tools/android_sdk' (newest first):
+[ADB]     /Users/e-science/.katalon/tools/android_sdk/build-tools/28.0.3
+[ADB] Using adb from /Users/e-science/.katalon/tools/android_sdk/platform-tools/adb
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: emulator-5554
+[ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer in /Users/e-science/.katalon/tools/android_sdk/platform-tools/apkanalyzer,/Users/e-science/.katalon/tools/android_sdk/emulator/apkanalyzer,/Users/e-science/.katalon/tools/android_sdk/tools/apkanalyzer,/Users/e-science/.katalon/tools/android_sdk/tools/bin/apkanalyzer,/Users/e-science/.katalon/tools/android_sdk/build-tools/28.0.3/apkanalyzer. Do you have the Android SDK installed at '/Users/e-science/.katalon/tools/android_sdk'?
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Users/e-science/.katalon/tools/android_sdk/build-tools/28.0.3/aapt
+[ADB] Extracting package and launch activity from manifest
+[UiAutomator2] Unable to remove port forward 'Error executing adbExec. Original error: 'Command '/Users/e-science/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp\:8200' exited with code 1'; Stderr: 'error: listener 'tcp:8200' not found'; Code: '1''
+[HTTP] <-- POST /wd/hub/session 500 2450 ms - 1553
+[HTTP] 
+[Appium] Received SIGTERM - shutting down

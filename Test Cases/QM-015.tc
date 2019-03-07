@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify that user can add appointment with valid patient email/ mobile number</description>
-   <name>QM-015</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>99aa7e38-8d7c-4a87-999a-36e8711039ad</testCaseGuid>
-</TestCaseEntity>
