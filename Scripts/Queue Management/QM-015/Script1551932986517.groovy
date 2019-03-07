@@ -19,17 +19,19 @@ WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
 
 WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('QM-015/Page_PMRS Web Application/button_Dina  Tuto_mat-fab mat-accent cdk-focused cdk-program-focused'))
+WebUI.delay(0)
 
-WebUI.setText(findTestObject('Object Repository/QM-015/Page_PMRS Web Application/input_PATIENT_mat-input-2 (1)'), 'test@gmail.com')
+WebUI.callTestCase(findTestCase('Add Appointment Button'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/QM-015/Page_PMRS Web Application/p_DR DINA  TUTO (1)'))
+WebUI.setText(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'), 'test@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/QM-015/Page_PMRS Web Application/input_NICKNAME_mat-input-3 (1)'), 'testname')
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment'))
 
-WebUI.click(findTestObject('Object Repository/QM-015/Page_PMRS Web Application/div_1600 - 2000      28'))
+WebUI.setText(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'), 'testname')
 
-WebUI.click(findTestObject('Object Repository/QM-015/Page_PMRS Web Application/div_    28'))
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/div_SELECT DATE  TIME_mat-select-arrow-wrapper'))
 
-WebUI.click(findTestObject('Object Repository/QM-015/Page_PMRS Web Application/button_CONFIRM'))
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/div_    08'))
+
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM'))
 

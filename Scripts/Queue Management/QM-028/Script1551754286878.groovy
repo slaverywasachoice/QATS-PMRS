@@ -19,31 +19,31 @@ WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/QM-028/Page_PMRS Web Application/button_Alfred Adonis_mat-fab mat-accent cdk-focused cdk-mouse-focused'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/QM-028/Page_PMRS Web Application/input_PATIENT_mat-input-0'), 'test@gmail.com')
+WebUI.setText(findTestObject('null'), 'test@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/QM-028/Page_PMRS Web Application/p_DR ALFRED ADONIS'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/QM-028/Page_PMRS Web Application/input_NICKNAME_mat-input-1'), 'testname')
+WebUI.setText(findTestObject('null'), 'testname')
 
-WebUI.click(findTestObject('Object Repository/QM-028/Page_PMRS Web Application/div_NICKNAME_mat-checkbox-inner-container'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/QM-028/Page_PMRS Web Application/button_CONFIRM'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('QM-028/Page_PMRS Web Application/mat-dialog-container_Automatically insert priority patient to the queueNoYes'), 
+WebUI.verifyElementPresent(findTestObject('null'), 
     0)
 
-WebUI.verifyElementText(findTestObject('QM-028/Page_PMRS Web Application/div_Automatically insert priority patient to the queue'), 
+WebUI.verifyElementText(findTestObject('null'), 
     'Automatically insert priority patient to the queue?')
 
-WebUI.verifyElementPresent(findTestObject('QM-028/Page_PMRS Web Application/button_Yes'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('QM-028/Page_PMRS Web Application/button_No'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementClickable(findTestObject('QM-028/Page_PMRS Web Application/button_Yes'))
+WebUI.verifyElementClickable(findTestObject('null'))
 
-WebUI.verifyElementClickable(findTestObject('QM-028/Page_PMRS Web Application/button_No'))
+WebUI.verifyElementClickable(findTestObject('null'))
 

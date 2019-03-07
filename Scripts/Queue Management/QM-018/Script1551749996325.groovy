@@ -19,17 +19,17 @@ WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/QM-018/Page_PMRS Web Application/button_Alfred Adonis_mat-fab mat-accent cdk-focused cdk-mouse-focused'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/QM-018/Page_PMRS Web Application/input_PATIENT_mat-input-0'), 'test@gmail.com')
+WebUI.setText(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'), 'test@gmail.com')
 
-WebUI.click(findTestObject('QM-018/Page_PMRS Web Application/p_DR ALFRED ADONIS'))
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/QM-018/Page_PMRS Web Application/input_NICKNAME_mat-input-1'), '134]2\'41]4[1;3')
+WebUI.setText(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'), '134]2\'41]4[1;3')
 
-WebUI.click(findTestObject('Object Repository/QM-018/Page_PMRS Web Application/button_CONFIRM'))
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM'))
 
 WebUI.delay(1)
 
-WebUI.verifyElementVisible(findTestObject('QM-018/Page_PMRS Web Application/div_Invalid Input'))
+WebUI.verifyElementVisible(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'))
 

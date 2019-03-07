@@ -19,27 +19,27 @@ WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/QM-020/Page_PMRS Web Application/button_Alfred Adonis_mat-fab mat-accent cdk-focused cdk-mouse-focused'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/QM-020/Page_PMRS Web Application/input_PATIENT_mat-input-0'), 'SAD;FAS]F[AS];[;A]F[;@gmail.com')
+WebUI.setText(findTestObject('null'), 'SAD;FAS]F[AS];[;A]F[;@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/QM-020/Page_PMRS Web Application/p_DR ALFRED ADONIS'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/QM-020/Page_PMRS Web Application/input_NICKNAME_mat-input-1'), '1\'23[21\'321[;]4;')
+WebUI.setText(findTestObject('null'), '1\'23[21\'321[;]4;')
 
-WebUI.click(findTestObject('Object Repository/QM-020/Page_PMRS Web Application/button_CONFIRM'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/QM-020/Page_PMRS Web Application/button_CONFIRM'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/QM-020/Page_PMRS Web Application/input_PATIENT_mat-input-0'), 'test@gmail.com')
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/QM-020/Page_PMRS Web Application/p_DR ALFRED ADONIS'))
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/QM-020/Page_PMRS Web Application/input_NICKNAME_mat-input-1'), 'testname')
+WebUI.setText(findTestObject('null'), 'test@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/QM-020/Page_PMRS Web Application/button_CONFIRM'))
+WebUI.click(findTestObject('null'))
+
+WebUI.setText(findTestObject('null'), 'testname')
+
+WebUI.click(findTestObject('null'))
 

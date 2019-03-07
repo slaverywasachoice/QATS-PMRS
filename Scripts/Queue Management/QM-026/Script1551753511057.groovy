@@ -19,13 +19,13 @@ WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/QM-026/Page_PMRS Web Application/button_Alfred Adonis_mat-fab mat-accent cdk-focused cdk-mouse-focused'))
+WebUI.click(findTestObject('null'))
 
-WebUI.verifyElementPresent(findTestObject('QM-026/Page_PMRS Web Application/div_EstimatedServiceTime1020AM'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/QM-026/Page_PMRS Web Application/button_CANCEL'))
+WebUI.click(findTestObject('null'))
 
-WebUI.verifyElementNotPresent(findTestObject('QM-026/Page_PMRS Web Application/div_EstimatedServiceTime1020AM'), 0)
+WebUI.verifyElementNotPresent(findTestObject('null'), 0)
 

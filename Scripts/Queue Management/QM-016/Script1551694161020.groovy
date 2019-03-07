@@ -21,11 +21,11 @@ WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/QM-016/Page_PMRS Web Application/button_Dina  Tuto_mat-fab mat-accent cdk-focused cdk-program-focused'))
+WebUI.callTestCase(findTestCase('Add Appointment Button'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementHasAttribute(findTestObject('QM-016/Page_PMRS Web Application/input_NICKNAME_mat-input-3'), 'placeholder', 
-    0)
+WebUI.verifyElementHasAttribute(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'), 
+    'placeholder', 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('QM-016/Page_PMRS Web Application/input_NICKNAME_mat-input-3'), 'placeholder', 
-    'Enter nickname', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'), 
+    'placeholder', 'Enter nickname', 0)
 

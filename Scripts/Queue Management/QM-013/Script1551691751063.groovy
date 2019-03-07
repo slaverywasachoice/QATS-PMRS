@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Main/Page_PMRS Web Application/Landing Page/button_Dina  Tuto_mat-fab mat-accent (1)'))
+WebUI.callTestCase(findTestCase('Add Appointment Button'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'), '12341][234P];\\')
 

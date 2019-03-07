@@ -19,17 +19,17 @@ WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/QM-031/Page_PMRS Web Application/button_Alfred Adonis_mat-fab mat-accent cdk-focused cdk-mouse-focused'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/QM-031/Page_PMRS Web Application/input_PATIENT_mat-input-0'), 'test@gmail.com')
+WebUI.setText(findTestObject('null'), 'test@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/QM-031/Page_PMRS Web Application/p_DR ALFRED ADONIS'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/QM-031/Page_PMRS Web Application/input_NICKNAME_mat-input-1'), 'testname')
+WebUI.setText(findTestObject('null'), 'testname')
 
-WebUI.click(findTestObject('Object Repository/QM-031/Page_PMRS Web Application/button_CONFIRM'))
+WebUI.click(findTestObject('null'))
 
-WebUI.verifyElementPresent(findTestObject('QM-031/Page_PMRS Web Application/span_Appointment Added'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('QM-031/Page_PMRS Web Application/span_SMS Confirmation sent to patient'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 

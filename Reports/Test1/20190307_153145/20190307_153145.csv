@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test1,Chrome 72.0.3626.121,,2019-03-07 15:31:48,2019-03-07 15:32:16,28.629s,PASSED
+,,,,,,
+Test Cases/Queue Management/QM-008,Chrome 72.0.3626.121,"""Verify that upon cliking + button, modal box will open with the following details:
+- Add Appointment (header)
+- Doctor name (below header)
+- Estimated Service Time (label and time)
+- Patient (label)
+- Username/mobile number (field)
+- Nickname (field)
+- Priority Patient (checkbox)
+- Select date and time (drop down)
+- """"By proceeding, I confirm that I have obtained consent to store the Patient Mobile no. & name."""" (message)
+- Cancel (button)
+- Confirm (button)""",2019-03-07 15:31:48,2019-03-07 15:32:05,16.456s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-07 15:31:49,2019-03-07 15:31:52,2.939s,PASSED
+"navigateToUrl(""https://pmrsqa.eschost2.com/"")",Chrome 72.0.3626.121,,2019-03-07 15:31:52,2019-03-07 15:31:55,3.195s,PASSED
+"callTestCase(findTestCase(""Log In""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 15:31:55,2019-03-07 15:31:59,3.801s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-07 15:31:59,2019-03-07 15:32:00,1.006s,PASSED
+"verifyElementPresent(findTestObject(""Main/Page_PMRS Web Application/Landing Page/Add Button""), 0)",Chrome 72.0.3626.121,,2019-03-07 15:32:00,2019-03-07 15:32:02,1.849s,PASSED
+"click(findTestObject(""Main/Page_PMRS Web Application/Landing Page/Add Button""))",Chrome 72.0.3626.121,,2019-03-07 15:32:02,2019-03-07 15:32:02,0.095s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment""), STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 15:32:02,2019-03-07 15:32:02,0.633s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/p_DR DINA  TUTO""))",Chrome 72.0.3626.121,,2019-03-07 15:32:02,2019-03-07 15:32:02,0.151s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h6_EstimatedServiceTime""), STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 15:32:02,2019-03-07 15:32:03,0.064s,PASSED
+"verifyElementPresent(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h6_0400""), 0)",Chrome 72.0.3626.121,,2019-03-07 15:32:03,2019-03-07 15:32:03,0.047s,PASSED
+"verifyElementPresent(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h5_PM""), 0)",Chrome 72.0.3626.121,,2019-03-07 15:32:03,2019-03-07 15:32:03,0.040s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/mat-label_PATIENT""), STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 15:32:03,2019-03-07 15:32:03,0.057s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2""))",Chrome 72.0.3626.121,,2019-03-07 15:32:03,2019-03-07 15:32:03,0.054s,PASSED
+"verifyElementText(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/mat-label_NICKNAME""), ""NICKNAME"")",Chrome 72.0.3626.121,,2019-03-07 15:32:03,2019-03-07 15:32:03,0.061s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3""))",Chrome 72.0.3626.121,,2019-03-07 15:32:03,2019-03-07 15:32:03,0.053s,PASSED
+"verifyElementPresent(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/label_PRIORITY PATIENT""), 0)",Chrome 72.0.3626.121,,2019-03-07 15:32:03,2019-03-07 15:32:03,0.030s,PASSED
+"verifyElementClickable(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container""))",Chrome 72.0.3626.121,,2019-03-07 15:32:03,2019-03-07 15:32:03,0.058s,PASSED
+"click(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container""))",Chrome 72.0.3626.121,,2019-03-07 15:32:03,2019-03-07 15:32:03,0.098s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-07 15:32:03,2019-03-07 15:32:04,1.004s,PASSED
+"click(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container""))",Chrome 72.0.3626.121,,2019-03-07 15:32:04,2019-03-07 15:32:04,0.111s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/mat-label_SELECT DATE  TIME""), STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 15:32:04,2019-03-07 15:32:04,0.108s,PASSED
+"click(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/input_SELECT DATE  TIME_mat-input-4""))",Chrome 72.0.3626.121,,2019-03-07 15:32:04,2019-03-07 15:32:04,0.110s,PASSED
+"verifyElementText(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/p_By proceeding I confirm that I have obtained consent to store the PATIENT MOBILE NO.  NAME.""), ""By proceeding, I confirm that I have obtained consent to store the PATIENT MOBILE NO. & NAME."")",Chrome 72.0.3626.121,,2019-03-07 15:32:04,2019-03-07 15:32:04,0.056s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM""))",Chrome 72.0.3626.121,,2019-03-07 15:32:04,2019-03-07 15:32:04,0.046s,PASSED
+"verifyElementClickable(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM""))",Chrome 72.0.3626.121,,2019-03-07 15:32:04,2019-03-07 15:32:05,0.047s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/button_CANCEL""))",Chrome 72.0.3626.121,,2019-03-07 15:32:05,2019-03-07 15:32:05,0.061s,PASSED
+"verifyElementClickable(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/button_CANCEL""))",Chrome 72.0.3626.121,,2019-03-07 15:32:05,2019-03-07 15:32:05,0.043s,PASSED
+,,,,,,
+Test Cases/Queue Management/QM-012,Chrome 72.0.3626.121,"Verify that patient field when adding appointment has a placeholder of ""Enter email address or mobile""",2019-03-07 15:32:05,2019-03-07 15:32:16,11.567s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-07 15:32:05,2019-03-07 15:32:06,1.504s,PASSED
+"navigateToUrl(""https://pmrsqa.eschost2.com/"")",Chrome 72.0.3626.121,,2019-03-07 15:32:06,2019-03-07 15:32:10,3.486s,PASSED
+"callTestCase(findTestCase(""Log In""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 15:32:10,2019-03-07 15:32:13,3.161s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-03-07 15:32:13,2019-03-07 15:32:15,2.009s,PASSED
+"click(findTestObject(""Main/Page_PMRS Web Application/Landing Page/Add Button""))",Chrome 72.0.3626.121,,2019-03-07 15:32:15,2019-03-07 15:32:16,0.535s,PASSED
+"verifyElementHasAttribute(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2""), ""ng-reflect-placeholder"", 0)",Chrome 72.0.3626.121,,2019-03-07 15:32:16,2019-03-07 15:32:16,0.579s,PASSED
+"verifyElementAttributeValue(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2""), ""ng-reflect-placeholder"", ""Enter email address or mobile"", 0)",Chrome 72.0.3626.121,,2019-03-07 15:32:16,2019-03-07 15:32:16,0.087s,PASSED

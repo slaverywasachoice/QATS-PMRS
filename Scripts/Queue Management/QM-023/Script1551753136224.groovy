@@ -19,13 +19,13 @@ WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/QM-023/Page_PMRS Web Application/button_Alfred Adonis_mat-fab mat-accent cdk-focused cdk-mouse-focused'))
+WebUI.click(findTestObject('null'))
 
-WebUI.verifyElementClickable(findTestObject('QM-023/Page_PMRS Web Application/div_NICKNAME_mat-checkbox-inner-container'))
+WebUI.verifyElementClickable(findTestObject('null'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/QM-023/Page_PMRS Web Application/div_NICKNAME_mat-checkbox-inner-container'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/QM-023/Page_PMRS Web Application/div_NICKNAME_mat-checkbox-inner-container'))
+WebUI.click(findTestObject('null'))
 

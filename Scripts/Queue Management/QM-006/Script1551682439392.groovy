@@ -23,7 +23,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto'))
 
-WebUI.click(findTestObject('Main/Page_PMRS Web Application/Landing Page/mat-option_Gregor Di Matibag'))
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag'))
 
 WebUI.verifyElementText(findTestObject('QM - 006/Page_PMRS Web Application/div_Getting Appointments...'), 'Getting Appointments...')
 

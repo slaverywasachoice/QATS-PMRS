@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
+WebUI.navigateToUrl('pmrsqa.eschost2.com')
 
 WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -23,9 +23,21 @@ WebUI.delay(2)
 
 WebUI.callTestCase(findTestCase('Add Appointment Button'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementHasAttribute(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'), 
-    'ng-reflect-placeholder', 0)
+WebUI.setText(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'), 'test@gmail.com')
 
-WebUI.verifyElementAttributeValue(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'), 
-    'ng-reflect-placeholder', 'Enter email address or mobile', 0)
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment'))
+
+WebUI.setText(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'), '12][3;12]312]3[')
+
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'), 'testname')
+
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM'))
 

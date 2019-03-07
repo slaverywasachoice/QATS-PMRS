@@ -13,19 +13,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
-
-WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.callTestCase(findTestCase('Add Appointment Button'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementHasAttribute(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'), 
-    'ng-reflect-placeholder', 0)
-
-WebUI.verifyElementAttributeValue(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'), 
-    'ng-reflect-placeholder', 'Enter email address or mobile', 0)
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Landing Page/Add button'))
 

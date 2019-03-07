@@ -1,0 +1,95 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test1,Chrome 72.0.3626.121,,2019-03-07 16:00:48,2019-03-07 16:02:34,1m - 45.372s,FAILED
+,,,,,,
+Test Cases/Queue Management/QM-008,Chrome 72.0.3626.121,"""Verify that upon cliking + button, modal box will open with the following details:
+- Add Appointment (header)
+- Doctor name (below header)
+- Estimated Service Time (label and time)
+- Patient (label)
+- Username/mobile number (field)
+- Nickname (field)
+- Priority Patient (checkbox)
+- Select date and time (drop down)
+- """"By proceeding, I confirm that I have obtained consent to store the Patient Mobile no. & name."""" (message)
+- Cancel (button)
+- Confirm (button)""",2019-03-07 16:00:49,2019-03-07 16:01:15,26.019s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-07 16:00:49,2019-03-07 16:00:53,3.626s,PASSED
+"navigateToUrl(""https://pmrsqa.eschost2.com/"")",Chrome 72.0.3626.121,,2019-03-07 16:00:53,2019-03-07 16:01:00,7.191s,PASSED
+"callTestCase(findTestCase(""Log In""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 16:01:00,2019-03-07 16:01:09,8.544s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-07 16:01:09,2019-03-07 16:01:10,1.009s,PASSED
+"callTestCase(findTestCase(""Add Appointment Button""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 16:01:10,2019-03-07 16:01:12,1.885s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment""), STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 16:01:12,2019-03-07 16:01:12,0.618s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/p_DR DINA  TUTO""))",Chrome 72.0.3626.121,,2019-03-07 16:01:12,2019-03-07 16:01:12,0.152s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h6_EstimatedServiceTime""), STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 16:01:12,2019-03-07 16:01:12,0.056s,PASSED
+"verifyElementPresent(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h6_0400""), 0)",Chrome 72.0.3626.121,,2019-03-07 16:01:12,2019-03-07 16:01:13,0.042s,PASSED
+"verifyElementPresent(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h5_PM""), 0)",Chrome 72.0.3626.121,,2019-03-07 16:01:13,2019-03-07 16:01:13,0.057s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/mat-label_PATIENT""), STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 16:01:13,2019-03-07 16:01:13,0.080s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2""))",Chrome 72.0.3626.121,,2019-03-07 16:01:13,2019-03-07 16:01:13,0.075s,PASSED
+"verifyElementText(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/mat-label_NICKNAME""), ""NICKNAME"")",Chrome 72.0.3626.121,,2019-03-07 16:01:13,2019-03-07 16:01:13,0.060s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3""))",Chrome 72.0.3626.121,,2019-03-07 16:01:13,2019-03-07 16:01:13,0.053s,PASSED
+"verifyElementPresent(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/label_PRIORITY PATIENT""), 0)",Chrome 72.0.3626.121,,2019-03-07 16:01:13,2019-03-07 16:01:13,0.040s,PASSED
+"verifyElementClickable(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container""))",Chrome 72.0.3626.121,,2019-03-07 16:01:13,2019-03-07 16:01:13,0.053s,PASSED
+"click(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container""))",Chrome 72.0.3626.121,,2019-03-07 16:01:13,2019-03-07 16:01:13,0.130s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-07 16:01:13,2019-03-07 16:01:14,1.011s,PASSED
+"click(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container""))",Chrome 72.0.3626.121,,2019-03-07 16:01:14,2019-03-07 16:01:14,0.124s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/mat-label_SELECT DATE  TIME""), STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 16:01:14,2019-03-07 16:01:14,0.133s,PASSED
+"click(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/input_SELECT DATE  TIME_mat-input-4""))",Chrome 72.0.3626.121,,2019-03-07 16:01:14,2019-03-07 16:01:14,0.139s,PASSED
+"verifyElementText(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/p_By proceeding I confirm that I have obtained consent to store the PATIENT MOBILE NO.  NAME.""), ""By proceeding, I confirm that I have obtained consent to store the PATIENT MOBILE NO. & NAME."")",Chrome 72.0.3626.121,,2019-03-07 16:01:14,2019-03-07 16:01:15,0.078s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM""))",Chrome 72.0.3626.121,,2019-03-07 16:01:15,2019-03-07 16:01:15,0.067s,PASSED
+"verifyElementClickable(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM""))",Chrome 72.0.3626.121,,2019-03-07 16:01:15,2019-03-07 16:01:15,0.050s,PASSED
+"verifyElementVisible(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/button_CANCEL""))",Chrome 72.0.3626.121,,2019-03-07 16:01:15,2019-03-07 16:01:15,0.054s,PASSED
+"verifyElementClickable(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/button_CANCEL""))",Chrome 72.0.3626.121,,2019-03-07 16:01:15,2019-03-07 16:01:15,0.051s,PASSED
+,,,,,,
+Test Cases/Queue Management/QM-012,Chrome 72.0.3626.121,"Verify that patient field when adding appointment has a placeholder of ""Enter email address or mobile""",2019-03-07 16:01:15,2019-03-07 16:01:28,12.995s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-07 16:01:15,2019-03-07 16:01:17,2.527s,PASSED
+"navigateToUrl(""https://pmrsqa.eschost2.com/"")",Chrome 72.0.3626.121,,2019-03-07 16:01:17,2019-03-07 16:01:21,3.858s,PASSED
+"callTestCase(findTestCase(""Log In""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 16:01:21,2019-03-07 16:01:25,3.216s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-03-07 16:01:25,2019-03-07 16:01:27,2.004s,PASSED
+"callTestCase(findTestCase(""Add Appointment Button""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 16:01:27,2019-03-07 16:01:27,0.552s,PASSED
+"verifyElementHasAttribute(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2""), ""ng-reflect-placeholder"", 0)",Chrome 72.0.3626.121,,2019-03-07 16:01:27,2019-03-07 16:01:28,0.609s,PASSED
+"verifyElementAttributeValue(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2""), ""ng-reflect-placeholder"", ""Enter email address or mobile"", 0)",Chrome 72.0.3626.121,,2019-03-07 16:01:28,2019-03-07 16:01:28,0.061s,PASSED
+,,,,,,
+Test Cases/Queue Management/QM-013,Chrome 72.0.3626.121,Verify that patient field when adding appointment will accept alphanumeric and special characters like @ and underscore only,2019-03-07 16:01:28,2019-03-07 16:01:49,21.246s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-07 16:01:28,2019-03-07 16:01:30,2.285s,PASSED
+"navigateToUrl(""https://pmrsqa.eschost2.com/"")",Chrome 72.0.3626.121,,2019-03-07 16:01:30,2019-03-07 16:01:37,6.926s,PASSED
+"callTestCase(findTestCase(""Log In""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 16:01:37,2019-03-07 16:01:40,3.211s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-03-07 16:01:40,2019-03-07 16:01:42,2.008s,PASSED
+"callTestCase(findTestCase(""Add Appointment Button""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 16:01:42,2019-03-07 16:01:43,0.555s,PASSED
+"setText(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2""), ""12341][234P];\"")",Chrome 72.0.3626.121,,2019-03-07 16:01:43,2019-03-07 16:01:44,1.119s,PASSED
+"setText(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3""), ""2134][;34][1;"")",Chrome 72.0.3626.121,,2019-03-07 16:01:44,2019-03-07 16:01:45,0.486s,PASSED
+"click(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM""))",Chrome 72.0.3626.121,,2019-03-07 16:01:45,2019-03-07 16:01:45,0.187s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-07 16:01:45,2019-03-07 16:01:46,1.007s,PASSED
+"click(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM""))",Chrome 72.0.3626.121,,2019-03-07 16:01:46,2019-03-07 16:01:46,0.055s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-03-07 16:01:46,2019-03-07 16:01:48,2.007s,PASSED
+"setText(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2""), ""TEST@gmail.com"")",Chrome 72.0.3626.121,,2019-03-07 16:01:48,2019-03-07 16:01:48,0.498s,PASSED
+"setText(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3""), ""testname"")",Chrome 72.0.3626.121,,2019-03-07 16:01:48,2019-03-07 16:01:49,0.514s,PASSED
+"click(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM""))",Chrome 72.0.3626.121,,2019-03-07 16:01:49,2019-03-07 16:01:49,0.154s,PASSED
+,,,,,,
+Test Cases/Queue Management/QM-014,Chrome 72.0.3626.121,"Verify that patient field when adding appointment will display ""Invalid Input"" below the field when user entered an invalid input",2019-03-07 16:01:49,2019-03-07 16:02:01,11.559s,FAILED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-07 16:01:49,2019-03-07 16:01:52,2.302s,PASSED
+"navigateToUrl(""https://pmrsqa.eschost2.com/"")",Chrome 72.0.3626.121,,2019-03-07 16:01:52,2019-03-07 16:01:54,2.714s,PASSED
+"callTestCase(findTestCase(""Log In""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 16:01:54,2019-03-07 16:01:57,3.139s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-03-07 16:01:57,2019-03-07 16:01:59,2.007s,PASSED
+"callTestCase(findTestCase(""Add Appointment Button""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 16:01:59,2019-03-07 16:02:00,0.561s,PASSED
+"click(findTestObject(""null""))",Chrome 72.0.3626.121,,2019-03-07 16:02:00,2019-03-07 16:02:01,0.563s,FAILED
+,,,,,,
+Test Cases/Queue Management/QM-015,Chrome 72.0.3626.121,Verify that user can add appointment with valid patient email/ mobile number,2019-03-07 16:02:01,2019-03-07 16:02:17,16.596s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-07 16:02:01,2019-03-07 16:02:03,2.210s,PASSED
+"navigateToUrl(""https://pmrsqa.eschost2.com/"")",Chrome 72.0.3626.121,,2019-03-07 16:02:03,2019-03-07 16:02:09,6.110s,PASSED
+"callTestCase(findTestCase(""Log In""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 16:02:09,2019-03-07 16:02:12,3.138s,PASSED
+delay(0),Chrome 72.0.3626.121,,2019-03-07 16:02:12,2019-03-07 16:02:12,0.010s,PASSED
+"callTestCase(findTestCase(""Add Appointment Button""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 16:02:12,2019-03-07 16:02:15,2.962s,PASSED
+"setText(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2""), ""test@gmail.com"")",Chrome 72.0.3626.121,,2019-03-07 16:02:15,2019-03-07 16:02:16,1.144s,PASSED
+"click(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment""))",Chrome 72.0.3626.121,,2019-03-07 16:02:16,2019-03-07 16:02:17,0.094s,PASSED
+"setText(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3""), ""testname"")",Chrome 72.0.3626.121,,2019-03-07 16:02:17,2019-03-07 16:02:17,0.240s,PASSED
+"click(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/div_SELECT DATE  TIME_mat-select-arrow-wrapper""))",Chrome 72.0.3626.121,,2019-03-07 16:02:17,2019-03-07 16:02:17,0.111s,PASSED
+"click(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/div_    08""))",Chrome 72.0.3626.121,,2019-03-07 16:02:17,2019-03-07 16:02:17,0.131s,PASSED
+"click(findTestObject(""Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM""))",Chrome 72.0.3626.121,,2019-03-07 16:02:17,2019-03-07 16:02:17,0.176s,PASSED
+,,,,,,
+Test Cases/Queue Management/QM-016,Chrome 72.0.3626.121,"Verify that nickname field when adding appointment has a placeholder of ""Enter nickname""",2019-03-07 16:02:17,2019-03-07 16:02:33,16.289s,FAILED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-07 16:02:17,2019-03-07 16:02:20,2.168s,PASSED
+"navigateToUrl(""https://pmrsqa.eschost2.com/"")",Chrome 72.0.3626.121,,2019-03-07 16:02:20,2019-03-07 16:02:27,7.488s,PASSED
+"callTestCase(findTestCase(""Log In""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 16:02:27,2019-03-07 16:02:30,3.099s,PASSED
+delay(2),Chrome 72.0.3626.121,,2019-03-07 16:02:30,2019-03-07 16:02:32,2.006s,PASSED
+"callTestCase(findTestCase(""Add Appointment Button""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-07 16:02:32,2019-03-07 16:02:33,0.873s,PASSED
+"click(findTestObject(""null""))",Chrome 72.0.3626.121,,2019-03-07 16:02:33,2019-03-07 16:02:33,0.468s,FAILED
