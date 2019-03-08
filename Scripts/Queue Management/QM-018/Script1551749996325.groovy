@@ -17,6 +17,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
 
+WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('null'))

@@ -17,23 +17,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
 
+WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(2)
 
-WebUI.click(findTestObject('null'))
+WebUI.callTestCase(findTestCase('Add Appointment Button'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('null'), 'test@gmail.com')
+WebUI.setText(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'), 'test@gmail.com')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment'))
 
-WebUI.setText(findTestObject('null'), '123]12\'3]123;;1]')
+WebUI.setText(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'), '123]12\'3]123;;1]')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM'))
 
-WebUI.setText(findTestObject('null'), 'testname')
+WebUI.setText(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'), 'testname')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM'))
 

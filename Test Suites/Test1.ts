@@ -34,16 +34,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Queue Management/QM-014</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>f77ea830-f8c0-4917-a1ca-73f9cbde224d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Queue Management/QM-015</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>455f758d-16a0-4f63-8fb5-04817659bee4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Queue Management/QM-016</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>
