@@ -34,4 +34,40 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Queue Management/QM-014</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c4336f83-9417-415a-be6b-1d9461331e39</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Queue Management/QM-015</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b7aa03d8-8e56-4a19-822f-a9ab359c25f1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Queue Management/QM-016</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2e82a85a-c30f-47a1-ac35-5ac2daeee068</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Queue Management/QM-017</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1c211d29-5f63-433c-85e8-18e52e3e6b3a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Queue Management/QM-018</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>88df3202-b64e-4387-92ea-fa0fa412e405</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Queue Management/QM-019</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>59e58abe-9b0b-402a-9ec7-7ff6e7884d7d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Queue Management/QM-020</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

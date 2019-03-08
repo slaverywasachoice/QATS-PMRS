@@ -19,13 +19,23 @@ WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('null'))
-
-WebUI.verifyElementPresent(findTestObject('null'), 0)
+WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('null'))
+WebUI.callTestCase(findTestCase('Change Doctors'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotPresent(findTestObject('null'), 0)
+WebUI.delay(2)
+
+WebUI.callTestCase(findTestCase('Add Appointment Button'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment'), 
+    0)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/button_CANCEL'))
+
+WebUI.verifyElementNotPresent(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment'), 
+    0)
 

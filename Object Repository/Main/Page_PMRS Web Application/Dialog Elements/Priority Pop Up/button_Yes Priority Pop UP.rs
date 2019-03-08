@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Add Button</name>
+   <name>button_Yes Priority Pop UP</name>
    <tag></tag>
-   <elementGuidId>6de89cf7-a7cb-4d0f-9f14-e633b3dba4dd</elementGuidId>
+   <elementGuidId>532cf033-bd8d-4173-82ea-eb526e5a5e5a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='All(0)'])[1]/preceding::button[1]</value>
+         <value>//mat-dialog-container[@id='mat-dialog-1']/autoprio-confirmation-dialog-dialog/div/div[2]/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,38 +24,44 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-fab mat-accent</value>
+      <value>yes mat-button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yes</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-reflect-disabled</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/esc-root[1]/esc-pages[@class=&quot;ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;full-height mat-drawer-container mat-sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[1]/div[@class=&quot;moduleClass&quot;]/esc-date[@class=&quot;ng-star-inserted&quot;]/div[1]/div[1]/div[1]/div[1]/div[2]/button[@class=&quot;mat-fab mat-accent&quot;]</value>
+      <value>id(&quot;mat-dialog-1&quot;)/autoprio-confirmation-dialog-dialog[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;mat-dialog-actions&quot;]/button[@class=&quot;yes mat-button&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='All(0)'])[1]/preceding::button[1]</value>
+      <name>xpath:idRelative</name>
+      <value>//mat-dialog-container[@id='mat-dialog-1']/autoprio-confirmation-dialog-dialog/div/div[2]/button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular(0)'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automatically insert priority patient to the queue?'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//button[3]</value>
+      <value>//autoprio-confirmation-dialog-dialog/div/div[2]/button[2]</value>
    </webElementXpaths>
 </WebElementEntity>

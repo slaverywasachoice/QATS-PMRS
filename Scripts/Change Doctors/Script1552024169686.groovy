@@ -19,3 +19,11 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag'))
 
+//WebUI.delay(1)
+//
+//WebUI.click(findTestObject('Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto'))
+//
+//WebUI.delay(1)
+//
+//WebUI.click(findTestObject('Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Dina  Tuto'))
+

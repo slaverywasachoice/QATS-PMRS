@@ -19,31 +19,41 @@ WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('null'))
+WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('null'), 'test@gmail.com')
+WebUI.delay(2)
 
-WebUI.click(findTestObject('null'))
+WebUI.callTestCase(findTestCase('Change Doctors'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('null'), 'testname')
+WebUI.delay(2)
 
-WebUI.click(findTestObject('null'))
+WebUI.callTestCase(findTestCase('Add Appointment Button'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'), 'test@gmail.com')
+
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment'))
+
+WebUI.setText(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'), 'testname')
+
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container'))
+
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM'))
 
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('null'), 
+WebUI.verifyElementPresent(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/Priority Pop Up/Priority Pop Up'), 
     0)
 
-WebUI.verifyElementText(findTestObject('null'), 
+WebUI.verifyElementText(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/Priority Pop Up/Priority Pop Up Message'), 
     'Automatically insert priority patient to the queue?')
 
-WebUI.verifyElementPresent(findTestObject('null'), 0)
+WebUI.verifyElementPresent(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/Priority Pop Up/button_Yes Priority Pop UP'), 
+    0)
 
-WebUI.verifyElementPresent(findTestObject('null'), 0)
+WebUI.verifyElementPresent(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/Priority Pop Up/button_No Priority Pop UP'), 
+    0)
 
-WebUI.verifyElementClickable(findTestObject('null'))
+WebUI.verifyElementClickable(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/Priority Pop Up/button_Yes Priority Pop UP'))
 
-WebUI.verifyElementClickable(findTestObject('null'))
+WebUI.verifyElementClickable(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/Priority Pop Up/button_No Priority Pop UP'))
 

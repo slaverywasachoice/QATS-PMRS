@@ -17,19 +17,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
+WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.callTestCase(findTestCase('Change Doctors'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.callTestCase(findTestCase('Add Appointment Button'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'))
+
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment'))
+
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'))
+
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment'))
+
+WebUI.delay(2)
+
+WebUI.verifyElementVisible(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/Error Messages/div_This field is required'))
 

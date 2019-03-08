@@ -13,23 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Queue Management/QM-019'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
+WebUI.verifyElementVisible(findTestObject('Main/Page_PMRS Web Application/Landing Page/Toasters/Appointment Added Alert'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.setText(findTestObject('null'), 'test@gmail.com')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.setText(findTestObject('null'), 'testname')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.verifyElementPresent(findTestObject('null'), 0)
-
-WebUI.verifyElementPresent(findTestObject('null'), 0)
+WebUI.verifyElementVisible(findTestObject('Main/Page_PMRS Web Application/Landing Page/Toasters/Message Sent Alert'), FailureHandling.STOP_ON_FAILURE)
 

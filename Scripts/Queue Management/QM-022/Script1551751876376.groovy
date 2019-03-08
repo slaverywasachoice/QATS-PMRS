@@ -19,8 +19,18 @@ WebUI.navigateToUrl('https://pmrsqa.eschost2.com/')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('QM-022/Page_PMRS Web Application/button_Alfred Adonis_mat-fab mat-accent cdk-focused cdk-mouse-focused'))
+WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotChecked(findTestObject('QM-022/Page_PMRS Web Application/div_NICKNAME_mat-checkbox-inner-container'), 
+WebUI.delay(2)
+
+WebUI.callTestCase(findTestCase('Change Doctors'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.callTestCase(findTestCase('Add Appointment Button'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.verifyElementNotChecked(findTestObject('Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container'), 
     0)
 

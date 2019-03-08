@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test1" time="197" tests="10" failures="0" errors="0">
+   <testsuite name="Test1" tests="10" failures="0" errors="0" time="197" timestamp="2019-03-08 15:08:08" hostname="e-science - e-sciences-mini" id="Test Suites/Test1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/e-science/Desktop/git/QATS-PMRS/Reports/Test1/20190308_150805"/>
+         <property name="logFiles" value="/Users/e-science/Desktop/git/QATS-PMRS/Reports/Test1/20190308_150805/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="e-science - e-sciences-mini"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="192.168.52.25"/>
+         <property name="sessionId" value="f510e810b132d0d6cc66941f526c6f1b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Queue Management/QM-008" classname="Test Cases/Queue Management/QM-008" status="PASSED">
+         <system-out><![CDATA[2019-03-08 15:08:09 - [TEST_CASE][PASSED] - Test Cases/Queue Management/QM-008: Test Cases/Queue Management/QM-008
+
+2019-03-08 15:08:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-08 15:08:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 15:08:10 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-08 15:08:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-08 15:08:13 - [TEST_STEP][PASSED] - navigateToUrl("https://pmrsqa.eschost2.com/"): Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:08:15 - [MESSAGE][PASSED] - Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:08:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Log In"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:08:15 - [TEST_CASE][PASSED] - Test Cases/Log In: Test Cases/Log In
+
+2019-03-08 15:08:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:08:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:08:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0"), "hughes.m@electronicscience.com"): Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:08:18 - [MESSAGE][PASSED] - Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:08:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1"), "pvl9UeBNnak165xxUnzI6w=="): Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:08:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:08:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Log In/Page_PMRS Web Application/button_Login")): Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:08:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:08:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:08:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:08:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Change Doctors"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:08:20 - [TEST_CASE][PASSED] - Test Cases/Change Doctors: Test Cases/Change Doctors
+
+2019-03-08 15:08:20 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:08:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:08:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:08:23 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:08:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:08:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:08:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:08:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Add Appointment Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:08:24 - [TEST_CASE][PASSED] - Test Cases/Add Appointment Button: Test Cases/Add Appointment Button
+
+2019-03-08 15:08:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button"), 0): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:08:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:08:25 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:08:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:08:25 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:08:25 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:08:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:08:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment"), STOP_ON_FAILURE): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment' is visible
+
+2019-03-08 15:08:25 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment' is visible
+
+2019-03-08 15:08:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/p_DR DINA  TUTO")): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/p_DR DINA  TUTO' is visible
+
+2019-03-08 15:08:25 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/p_DR DINA  TUTO' is visible
+
+2019-03-08 15:08:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h6_EstimatedServiceTime"), STOP_ON_FAILURE): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h6_EstimatedServiceTime' is visible
+
+2019-03-08 15:08:25 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h6_EstimatedServiceTime' is visible
+
+2019-03-08 15:08:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h6_0400"), 0): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h6_0400' is present
+
+2019-03-08 15:08:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:08:25 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h6_0400' is present
+
+2019-03-08 15:08:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h5_PM"), 0): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h5_PM' is present
+
+2019-03-08 15:08:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:08:25 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h5_PM' is present
+
+2019-03-08 15:08:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/mat-label_PATIENT"), STOP_ON_FAILURE): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/mat-label_PATIENT' is visible
+
+2019-03-08 15:08:26 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/mat-label_PATIENT' is visible
+
+2019-03-08 15:08:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2")): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2' is visible
+
+2019-03-08 15:08:26 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2' is visible
+
+2019-03-08 15:08:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/mat-label_NICKNAME"), "NICKNAME"): Actual text and expected text of test object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/mat-label_NICKNAME' are matched.
+
+2019-03-08 15:08:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/mat-label_NICKNAME' are matched.
+
+2019-03-08 15:08:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3")): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3' is visible
+
+2019-03-08 15:08:26 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3' is visible
+
+2019-03-08 15:08:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/label_PRIORITY PATIENT"), 0): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/label_PRIORITY PATIENT' is present
+
+2019-03-08 15:08:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:08:26 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/label_PRIORITY PATIENT' is present
+
+2019-03-08 15:08:26 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container")): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container' is clickable
+
+2019-03-08 15:08:26 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container' is clickable
+
+2019-03-08 15:08:26 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container' is clicked on
+
+2019-03-08 15:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container' is clicked on
+
+2019-03-08 15:08:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:08:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:08:27 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container' is clicked on
+
+2019-03-08 15:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/div_NICKNAME_mat-checkbox-inner-container' is clicked on
+
+2019-03-08 15:08:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/mat-label_SELECT DATE  TIME"), STOP_ON_FAILURE): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/mat-label_SELECT DATE  TIME' is visible
+
+2019-03-08 15:08:27 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/mat-label_SELECT DATE  TIME' is visible
+
+2019-03-08 15:08:27 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/input_SELECT DATE  TIME_mat-input-4")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/input_SELECT DATE  TIME_mat-input-4' is clicked on
+
+2019-03-08 15:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/input_SELECT DATE  TIME_mat-input-4' is clicked on
+
+2019-03-08 15:08:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/p_By proceeding I confirm that I have obtained consent to store the PATIENT MOBILE NO.  NAME."), "By proceeding, I confirm that I have obtained consent to store the PATIENT MOBILE NO. & NAME."): Actual text and expected text of test object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/p_By proceeding I confirm that I have obtained consent to store the PATIENT MOBILE NO.  NAME.' are matched.
+
+2019-03-08 15:08:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/p_By proceeding I confirm that I have obtained consent to store the PATIENT MOBILE NO.  NAME.' are matched.
+
+2019-03-08 15:08:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is visible
+
+2019-03-08 15:08:27 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is visible
+
+2019-03-08 15:08:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clickable
+
+2019-03-08 15:08:27 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clickable
+
+2019-03-08 15:08:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CANCEL")): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CANCEL' is visible
+
+2019-03-08 15:08:27 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CANCEL' is visible
+
+2019-03-08 15:08:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CANCEL")): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CANCEL' is clickable
+
+2019-03-08 15:08:27 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CANCEL' is clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Queue Management/QM-012" classname="Test Cases/Queue Management/QM-012" status="PASSED">
+         <system-out><![CDATA[2019-03-08 15:08:27 - [TEST_CASE][PASSED] - Test Cases/Queue Management/QM-012: Test Cases/Queue Management/QM-012
+
+2019-03-08 15:08:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-08 15:08:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-08 15:08:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 15:08:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-08 15:08:29 - [TEST_STEP][PASSED] - navigateToUrl("https://pmrsqa.eschost2.com/"): Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:08:31 - [MESSAGE][PASSED] - Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:08:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Log In"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:08:31 - [TEST_CASE][PASSED] - Test Cases/Log In: Test Cases/Log In
+
+2019-03-08 15:08:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:08:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:08:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0"), "hughes.m@electronicscience.com"): Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:08:34 - [MESSAGE][PASSED] - Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:08:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1"), "pvl9UeBNnak165xxUnzI6w=="): Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:08:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:08:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Log In/Page_PMRS Web Application/button_Login")): Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:08:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:08:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:08:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:08:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:08:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Change Doctors"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:08:37 - [TEST_CASE][PASSED] - Test Cases/Change Doctors: Test Cases/Change Doctors
+
+2019-03-08 15:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:08:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:08:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:08:38 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:08:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:08:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:08:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:08:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Add Appointment Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:08:40 - [TEST_CASE][PASSED] - Test Cases/Add Appointment Button: Test Cases/Add Appointment Button
+
+2019-03-08 15:08:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button"), 0): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:08:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:08:40 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:08:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:08:40 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:08:40 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:08:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:08:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:08:40 - [TEST_STEP][PASSED] - verifyElementHasAttribute(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2"), "ng-reflect-placeholder", 0): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2' has attribute 'ng-reflect-placeholder'
+
+2019-03-08 15:08:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:08:41 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2' has attribute 'ng-reflect-placeholder'
+
+2019-03-08 15:08:41 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2"), "ng-reflect-placeholder", "Enter email address or mobile", 0): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2' has attribute 'ng-reflect-placeholder' with value 'Enter email address or mobile'
+
+2019-03-08 15:08:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:08:41 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2' has attribute 'ng-reflect-placeholder' with value 'Enter email address or mobile']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Queue Management/QM-013" classname="Test Cases/Queue Management/QM-013" status="PASSED">
+         <system-out><![CDATA[2019-03-08 15:08:41 - [TEST_CASE][PASSED] - Test Cases/Queue Management/QM-013: Test Cases/Queue Management/QM-013
+
+2019-03-08 15:08:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-08 15:08:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-08 15:08:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 15:08:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-08 15:08:43 - [TEST_STEP][PASSED] - navigateToUrl("https://pmrsqa.eschost2.com/"): Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:08:46 - [MESSAGE][PASSED] - Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:08:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Log In"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:08:46 - [TEST_CASE][PASSED] - Test Cases/Log In: Test Cases/Log In
+
+2019-03-08 15:08:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:08:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:08:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0"), "hughes.m@electronicscience.com"): Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:08:48 - [MESSAGE][PASSED] - Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:08:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1"), "pvl9UeBNnak165xxUnzI6w=="): Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:08:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:08:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Log In/Page_PMRS Web Application/button_Login")): Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:08:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:08:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:08:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:08:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Change Doctors"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:08:51 - [TEST_CASE][PASSED] - Test Cases/Change Doctors: Test Cases/Change Doctors
+
+2019-03-08 15:08:51 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:08:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:08:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:08:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:08:53 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:08:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:08:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:08:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:08:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Add Appointment Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:08:55 - [TEST_CASE][PASSED] - Test Cases/Add Appointment Button: Test Cases/Add Appointment Button
+
+2019-03-08 15:08:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button"), 0): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:08:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:08:55 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:08:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:08:55 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:08:55 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:08:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:08:56 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2"), "12341][234P];\"): Text '12341][234P];\' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:08:57 - [MESSAGE][PASSED] - Text '12341][234P];\' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:08:57 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3"), "2134][;34][1;"): Text '2134][;34][1;' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:08:57 - [MESSAGE][PASSED] - Text '2134][;34][1;' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:08:57 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:08:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:08:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:08:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:08:58 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:08:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:09:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:09:00 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2"), "TEST@gmail.com"): Text 'TEST@gmail.com' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:09:01 - [MESSAGE][PASSED] - Text 'TEST@gmail.com' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:09:01 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3"), "testname"): Text 'testname' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:09:01 - [MESSAGE][PASSED] - Text 'testname' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:09:01 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Queue Management/QM-014" classname="Test Cases/Queue Management/QM-014" status="PASSED">
+         <system-out><![CDATA[2019-03-08 15:09:01 - [TEST_CASE][PASSED] - Test Cases/Queue Management/QM-014: Test Cases/Queue Management/QM-014
+
+2019-03-08 15:09:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-08 15:09:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-08 15:09:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 15:09:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-08 15:09:04 - [TEST_STEP][PASSED] - navigateToUrl("https://pmrsqa.eschost2.com/"): Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:09:06 - [MESSAGE][PASSED] - Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:09:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Log In"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:09:06 - [TEST_CASE][PASSED] - Test Cases/Log In: Test Cases/Log In
+
+2019-03-08 15:09:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:09:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:09:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0"), "hughes.m@electronicscience.com"): Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:09:08 - [MESSAGE][PASSED] - Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:09:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1"), "pvl9UeBNnak165xxUnzI6w=="): Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:09:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:09:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Log In/Page_PMRS Web Application/button_Login")): Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:09:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:09:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:09:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:09:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Change Doctors"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:09:11 - [TEST_CASE][PASSED] - Test Cases/Change Doctors: Test Cases/Change Doctors
+
+2019-03-08 15:09:11 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:09:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:09:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:09:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:09:13 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:09:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:09:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:09:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:09:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Add Appointment Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:09:16 - [TEST_CASE][PASSED] - Test Cases/Add Appointment Button: Test Cases/Add Appointment Button
+
+2019-03-08 15:09:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button"), 0): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:09:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:09:16 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:09:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:09:16 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:09:16 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:09:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:09:16 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2"), "123]412'3]421'34]"): Text '123]412'3]421'34]' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:09:17 - [MESSAGE][PASSED] - Text '123]412'3]421'34]' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:09:17 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:09:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:09:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:09:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:09:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Error Messages/div_Invalid Input"), STOP_ON_FAILURE): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Error Messages/div_Invalid Input' is visible
+
+2019-03-08 15:09:19 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Error Messages/div_Invalid Input' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Queue Management/QM-015" classname="Test Cases/Queue Management/QM-015" status="PASSED">
+         <system-out><![CDATA[2019-03-08 15:09:19 - [TEST_CASE][PASSED] - Test Cases/Queue Management/QM-015: Test Cases/Queue Management/QM-015
+
+2019-03-08 15:09:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-08 15:09:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-08 15:09:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 15:09:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-08 15:09:22 - [TEST_STEP][PASSED] - navigateToUrl("https://pmrsqa.eschost2.com/"): Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:09:24 - [MESSAGE][PASSED] - Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:09:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Log In"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:09:24 - [TEST_CASE][PASSED] - Test Cases/Log In: Test Cases/Log In
+
+2019-03-08 15:09:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:09:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:09:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0"), "hughes.m@electronicscience.com"): Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:09:27 - [MESSAGE][PASSED] - Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:09:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1"), "pvl9UeBNnak165xxUnzI6w=="): Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:09:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:09:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Log In/Page_PMRS Web Application/button_Login")): Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:09:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:09:27 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+2019-03-08 15:09:27 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2019-03-08 15:09:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Change Doctors"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:09:27 - [TEST_CASE][PASSED] - Test Cases/Change Doctors: Test Cases/Change Doctors
+
+2019-03-08 15:09:27 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:09:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:09:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:09:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:09:31 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:09:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:09:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:09:32 - [TEST_STEP][PASSED] - delay(0): Delayed 0 second(s)
+
+2019-03-08 15:09:32 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2019-03-08 15:09:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Add Appointment Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:09:32 - [TEST_CASE][PASSED] - Test Cases/Add Appointment Button: Test Cases/Add Appointment Button
+
+2019-03-08 15:09:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button"), 0): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:09:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:09:32 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:09:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:09:32 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:09:32 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:09:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:09:33 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:09:34 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:09:34 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment' is clicked on
+
+2019-03-08 15:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment' is clicked on
+
+2019-03-08 15:09:34 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3"), "testname"): Text 'testname' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:09:34 - [MESSAGE][PASSED] - Text 'testname' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:09:34 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/div_SELECT DATE  TIME_mat-select-arrow-wrapper")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/div_SELECT DATE  TIME_mat-select-arrow-wrapper' is clicked on
+
+2019-03-08 15:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/div_SELECT DATE  TIME_mat-select-arrow-wrapper' is clicked on
+
+2019-03-08 15:09:34 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/div_    08")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/div_    08' is clicked on
+
+2019-03-08 15:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/div_    08' is clicked on
+
+2019-03-08 15:09:35 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Queue Management/QM-016" classname="Test Cases/Queue Management/QM-016" status="PASSED">
+         <system-out><![CDATA[2019-03-08 15:09:35 - [TEST_CASE][PASSED] - Test Cases/Queue Management/QM-016: Test Cases/Queue Management/QM-016
+
+2019-03-08 15:09:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-08 15:09:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-08 15:09:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 15:09:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-08 15:09:37 - [TEST_STEP][PASSED] - navigateToUrl("https://pmrsqa.eschost2.com/"): Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:09:40 - [MESSAGE][PASSED] - Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:09:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Log In"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:09:40 - [TEST_CASE][PASSED] - Test Cases/Log In: Test Cases/Log In
+
+2019-03-08 15:09:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:09:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:09:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0"), "hughes.m@electronicscience.com"): Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:09:42 - [MESSAGE][PASSED] - Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:09:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1"), "pvl9UeBNnak165xxUnzI6w=="): Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:09:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:09:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Log In/Page_PMRS Web Application/button_Login")): Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:09:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:09:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:09:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:09:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Change Doctors"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:09:45 - [TEST_CASE][PASSED] - Test Cases/Change Doctors: Test Cases/Change Doctors
+
+2019-03-08 15:09:45 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:09:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:09:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:09:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:09:47 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:09:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:09:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:09:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:09:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Add Appointment Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:09:49 - [TEST_CASE][PASSED] - Test Cases/Add Appointment Button: Test Cases/Add Appointment Button
+
+2019-03-08 15:09:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button"), 0): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:09:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:09:49 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:09:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:09:49 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:09:49 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:09:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:09:49 - [TEST_STEP][PASSED] - verifyElementHasAttribute(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3"), "placeholder", 0): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3' has attribute 'placeholder'
+
+2019-03-08 15:09:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:09:50 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3' has attribute 'placeholder'
+
+2019-03-08 15:09:50 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3"), "placeholder", "Enter nickname", 0): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3' has attribute 'placeholder' with value 'Enter nickname'
+
+2019-03-08 15:09:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:09:50 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3' has attribute 'placeholder' with value 'Enter nickname']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Queue Management/QM-017" classname="Test Cases/Queue Management/QM-017" status="PASSED">
+         <system-out><![CDATA[2019-03-08 15:09:50 - [TEST_CASE][PASSED] - Test Cases/Queue Management/QM-017: Test Cases/Queue Management/QM-017
+
+2019-03-08 15:09:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-08 15:09:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-08 15:09:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 15:09:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-08 15:09:52 - [TEST_STEP][PASSED] - navigateToUrl("pmrsqa.eschost2.com"): Navigate to 'http://pmrsqa.eschost2.com' successfully
+
+2019-03-08 15:09:55 - [MESSAGE][PASSED] - Navigate to 'http://pmrsqa.eschost2.com' successfully
+
+2019-03-08 15:09:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Log In"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:09:55 - [TEST_CASE][PASSED] - Test Cases/Log In: Test Cases/Log In
+
+2019-03-08 15:09:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:09:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:09:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0"), "hughes.m@electronicscience.com"): Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:09:58 - [MESSAGE][PASSED] - Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:09:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1"), "pvl9UeBNnak165xxUnzI6w=="): Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:09:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:09:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Log In/Page_PMRS Web Application/button_Login")): Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:09:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:09:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:10:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:10:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Change Doctors"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:10:00 - [TEST_CASE][PASSED] - Test Cases/Change Doctors: Test Cases/Change Doctors
+
+2019-03-08 15:10:00 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:10:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:10:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:10:02 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:10:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:10:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:10:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:10:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:10:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Add Appointment Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:10:04 - [TEST_CASE][PASSED] - Test Cases/Add Appointment Button: Test Cases/Add Appointment Button
+
+2019-03-08 15:10:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button"), 0): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:10:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:10:04 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:10:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:10:04 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:10:04 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:10:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:10:04 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:10:05 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:10:05 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment' is clicked on
+
+2019-03-08 15:10:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment' is clicked on
+
+2019-03-08 15:10:05 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3"), "12][3;12]312]3["): Text '12][3;12]312]3[' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:10:06 - [MESSAGE][PASSED] - Text '12][3;12]312]3[' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:10:06 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:10:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:10:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:10:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:10:07 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:10:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:10:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:10:08 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3"), "testname"): Text 'testname' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:10:09 - [MESSAGE][PASSED] - Text 'testname' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:10:09 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Queue Management/QM-018" classname="Test Cases/Queue Management/QM-018" status="PASSED">
+         <system-out><![CDATA[2019-03-08 15:10:09 - [TEST_CASE][PASSED] - Test Cases/Queue Management/QM-018: Test Cases/Queue Management/QM-018
+
+2019-03-08 15:10:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-08 15:10:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-08 15:10:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 15:10:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-08 15:10:11 - [TEST_STEP][PASSED] - navigateToUrl("https://pmrsqa.eschost2.com/"): Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:10:13 - [MESSAGE][PASSED] - Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:10:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Log In"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:10:13 - [TEST_CASE][PASSED] - Test Cases/Log In: Test Cases/Log In
+
+2019-03-08 15:10:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:10:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:10:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0"), "hughes.m@electronicscience.com"): Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:10:16 - [MESSAGE][PASSED] - Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:10:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1"), "pvl9UeBNnak165xxUnzI6w=="): Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:10:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:10:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Log In/Page_PMRS Web Application/button_Login")): Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:10:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:10:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:10:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:10:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Change Doctors"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:10:18 - [TEST_CASE][PASSED] - Test Cases/Change Doctors: Test Cases/Change Doctors
+
+2019-03-08 15:10:18 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:10:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:10:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:10:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:10:20 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:10:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:10:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:10:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:10:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Add Appointment Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:10:22 - [TEST_CASE][PASSED] - Test Cases/Add Appointment Button: Test Cases/Add Appointment Button
+
+2019-03-08 15:10:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button"), 0): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:10:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:10:34 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:10:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:10:34 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:10:34 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:10:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:10:34 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:10:35 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:10:35 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment' is clicked on
+
+2019-03-08 15:10:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment' is clicked on
+
+2019-03-08 15:10:35 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3"), "134]2'41]4[1;3"): Text '134]2'41]4[1;3' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:10:35 - [MESSAGE][PASSED] - Text '134]2'41]4[1;3' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:10:35 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:10:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:10:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:10:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3")): Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3' is visible
+
+2019-03-08 15:10:37 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Queue Management/QM-019" classname="Test Cases/Queue Management/QM-019" status="PASSED">
+         <system-out><![CDATA[2019-03-08 15:10:37 - [TEST_CASE][PASSED] - Test Cases/Queue Management/QM-019: Test Cases/Queue Management/QM-019
+
+2019-03-08 15:10:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-08 15:10:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-08 15:10:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 15:10:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-08 15:10:38 - [TEST_STEP][PASSED] - navigateToUrl("https://pmrsqa.eschost2.com/"): Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:10:40 - [MESSAGE][PASSED] - Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:10:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Log In"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:10:40 - [TEST_CASE][PASSED] - Test Cases/Log In: Test Cases/Log In
+
+2019-03-08 15:10:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:10:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:10:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0"), "hughes.m@electronicscience.com"): Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:10:43 - [MESSAGE][PASSED] - Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:10:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1"), "pvl9UeBNnak165xxUnzI6w=="): Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:10:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:10:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Log In/Page_PMRS Web Application/button_Login")): Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:10:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:10:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:10:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:10:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Change Doctors"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:10:46 - [TEST_CASE][PASSED] - Test Cases/Change Doctors: Test Cases/Change Doctors
+
+2019-03-08 15:10:46 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:10:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:10:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:10:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:10:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:10:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:10:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:10:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Add Appointment Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:10:49 - [TEST_CASE][PASSED] - Test Cases/Add Appointment Button: Test Cases/Add Appointment Button
+
+2019-03-08 15:10:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button"), 0): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:10:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:10:55 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:10:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:10:55 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:10:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:10:55 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:10:57 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment' is clicked on
+
+2019-03-08 15:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment' is clicked on
+
+2019-03-08 15:10:57 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3"), "123]12'3]123;;1]"): Text '123]12'3]123;;1]' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:10:57 - [MESSAGE][PASSED] - Text '123]12'3]123;;1]' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:10:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:10:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:10:58 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:10:58 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3"), "testname"): Text 'testname' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:10:59 - [MESSAGE][PASSED] - Text 'testname' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:10:59 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Queue Management/QM-020" classname="Test Cases/Queue Management/QM-020" status="PASSED">
+         <system-out><![CDATA[2019-03-08 15:10:59 - [TEST_CASE][PASSED] - Test Cases/Queue Management/QM-020: Test Cases/Queue Management/QM-020
+
+2019-03-08 15:10:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-08 15:10:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-08 15:10:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 15:11:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-08 15:11:00 - [TEST_STEP][PASSED] - navigateToUrl("https://pmrsqa.eschost2.com/"): Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:11:06 - [MESSAGE][PASSED] - Navigate to 'https://pmrsqa.eschost2.com/' successfully
+
+2019-03-08 15:11:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Log In"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:11:06 - [TEST_CASE][PASSED] - Test Cases/Log In: Test Cases/Log In
+
+2019-03-08 15:11:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:11:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:11:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0"), "hughes.m@electronicscience.com"): Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:11:09 - [MESSAGE][PASSED] - Text 'hughes.m@electronicscience.com' is set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-0'
+
+2019-03-08 15:11:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1"), "pvl9UeBNnak165xxUnzI6w=="): Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:11:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Log In/Page_PMRS Web Application/input_Username_mat-input-1'
+
+2019-03-08 15:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Log In/Page_PMRS Web Application/button_Login")): Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Log In/Page_PMRS Web Application/button_Login' is clicked on
+
+2019-03-08 15:11:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Log In' successfully
+
+2019-03-08 15:11:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:11:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:11:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Change Doctors"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:11:11 - [TEST_CASE][PASSED] - Test Cases/Change Doctors: Test Cases/Change Doctors
+
+2019-03-08 15:11:11 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/div_Dina  Tuto' is clicked on
+
+2019-03-08 15:11:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:11:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:11:13 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Doctor List Dropdown/mat-option_Gregor Di Matibag' is clicked on
+
+2019-03-08 15:11:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Change Doctors' successfully
+
+2019-03-08 15:11:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-03-08 15:11:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 15:11:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Add Appointment Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:11:15 - [TEST_CASE][PASSED] - Test Cases/Add Appointment Button: Test Cases/Add Appointment Button
+
+2019-03-08 15:11:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button"), 0): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:11:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-08 15:11:19 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is present
+
+2019-03-08 15:11:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:11:19 - [MESSAGE][PASSED] - Object 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is visible
+
+2019-03-08 15:11:19 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Landing Page/Add Button")): Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Landing Page/Add Button' is clicked on
+
+2019-03-08 15:11:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Add Appointment Button' successfully
+
+2019-03-08 15:11:19 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2"), "SAD;FAS]F[AS];[;A]F[;@gmail.com"): Text 'SAD;FAS]F[AS];[;A]F[;@gmail.com' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:11:22 - [MESSAGE][PASSED] - Text 'SAD;FAS]F[AS];[;A]F[;@gmail.com' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:11:22 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment' is clicked on
+
+2019-03-08 15:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment' is clicked on
+
+2019-03-08 15:11:22 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3"), "1'23[21'321[;]4;"): Text '1'23[21'321[;]4;' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:11:22 - [MESSAGE][PASSED] - Text '1'23[21'321[;]4;' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:11:22 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:11:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:11:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:11:23 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:11:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-08 15:11:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-08 15:11:24 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:11:25 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_PATIENT_mat-input-2'
+
+2019-03-08 15:11:25 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment' is clicked on
+
+2019-03-08 15:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/Labels, Titles/h1_Add Appointment' is clicked on
+
+2019-03-08 15:11:25 - [TEST_STEP][PASSED] - setText(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3"), "testname"): Text 'testname' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:11:25 - [MESSAGE][PASSED] - Text 'testname' is set on object 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/input_NICKNAME_mat-input-3'
+
+2019-03-08 15:11:25 - [TEST_STEP][PASSED] - click(findTestObject("Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM")): Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on
+
+2019-03-08 15:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Main/Page_PMRS Web Application/Dialog Elements/button_CONFIRM' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-08 15:08:08 - [TEST_SUITE][PASSED] - Test1: Test Cases/Queue Management/QM-020]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
