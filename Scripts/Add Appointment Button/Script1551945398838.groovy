@@ -13,9 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('Main/Page_PMRS Web Application/Landing Page/Add Button'), 0)
+WebUI.verifyElementPresent(findTestObject('Main/Page_PMRS Web Application/Landing Page/Add Button 2'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Main/Page_PMRS Web Application/Landing Page/Add Button'))
+WebUI.verifyElementVisible(findTestObject('Main/Page_PMRS Web Application/Landing Page/Add Button 2'))
 
-WebUI.click(findTestObject('Main/Page_PMRS Web Application/Landing Page/Add Button'))
+WebUI.click(findTestObject('Main/Page_PMRS Web Application/Landing Page/Add Button 2'))
 

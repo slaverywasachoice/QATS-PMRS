@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Add Button</name>
+   <name>Add Button 2</name>
    <tag></tag>
-   <elementGuidId>6de89cf7-a7cb-4d0f-9f14-e633b3dba4dd</elementGuidId>
+   <elementGuidId>1cbbcbac-d7f7-4146-bc46-b70e0f9ac016</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='All(0)'])[1]/preceding::button[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Gregor Di Matibag'])[2]/following::button[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-fab mat-accent</value>
+      <value>addapp-button center-image mat-fab mat-accent</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,19 +38,31 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/esc-root[1]/esc-pages[@class=&quot;ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;full-height mat-drawer-container mat-sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[1]/div[@class=&quot;moduleClass&quot;]/esc-date[@class=&quot;ng-star-inserted&quot;]/div[1]/div[1]/div[1]/div[1]/div[2]/button[@class=&quot;mat-fab mat-accent&quot;]</value>
+      <value>/html[1]/body[1]/esc-root[1]/esc-pages[@class=&quot;ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;full-height mat-drawer-container mat-sidenav-container&quot;]/mat-sidenav-content[@class=&quot;mat-drawer-content mat-sidenav-content&quot;]/div[1]/div[@class=&quot;moduleClass&quot;]/esc-date[@class=&quot;ng-star-inserted&quot;]/div[1]/div[1]/div[1]/div[1]/div[2]/button[@class=&quot;addapp-button center-image mat-fab mat-accent&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='All(0)'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gregor Di Matibag'])[2]/following::button[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular(0)'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gregor Di Matibag'])[1]/following::button[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All(1)'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Regular(1)'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

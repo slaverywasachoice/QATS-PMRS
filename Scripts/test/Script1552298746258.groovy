@@ -13,26 +13,3 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WS.sendRequest(findTestObject('APIs/listDoctors'))
-response = WS.sendRequestAndVerify(findTestObject('APIs/listDoctors'))
-
-def data = findTestData('Data Files/DoctorNames')
-
-def dr1_firstname = data.getValue(1, 1)
-
-def dr2_firstname = data.getValue(1, 2)
-
-def dr3_firstname = data.getValue(1, 3)
-
-def dr1_lastname = data.getValue(2, 1)
- 
-def dr2_lastname = data.getValue(2, 2)
-
-def dr3_lastname = data.getValue(2, 3)
-
-for(int x=0; x<=2;x++){
-	WS.verifyElementPropertyValue(response, 'data['+ x +'].first_name', dr1_firstname)
-}
-WS.verifyEqual(dr2_firstname,)
-
-
